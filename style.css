@@ -1,0 +1,93 @@
+h1{
+  color:#F6E8EA;
+  font-family:Exo;
+  font-size: 40px;
+}
+
+h2{
+  color: #17BEBB;
+  font-family:courier;
+  font-size: 30px;
+  text-decoration:underline;
+  text-shadow: 2px 2px #000000
+}
+
+h3{
+  color: rgb(50,50,50);
+  font-family:courier;
+  font-size: 20px;
+}
+
+p{
+  color: #F6E8EA;
+  font-family:courier;
+  font-size: 20px; 
+}
+
+#titre{
+  border-width:5px;
+  border-radius:5px;
+  box-shadow: 2px 2px 2px black;
+  background-color:#000E1C;
+  text-align:center;
+  background-image:url("images/meca.png");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+  margin:0;
+}
+
+#description{
+  width:200px
+  height:200px
+  border-width:2px;
+  border-radius:5px;
+  box-shadow: 2px 2px 2px black;
+  padding:5px;
+  background-color:black;
+  margin:0;
+  text-align:center;
+}
+
+#photodeprofil{
+  width:200px
+  height:200px
+  border-width:2px;
+  border-radius:5px;
+  box-shadow: 2px 2px 2px black;
+  padding:5px;
+  background-color:black;
+  margin:0;
+  text-align:center;
+}
+
+.card{
+  padding:10px; 
+}
+
+.card i{
+  color:rgb(50,50,50);
+  font-size: 100px;
+}
+#fin{
+  width:200px
+  height:200px
+  border-width:2px;
+  border-radius:5px;
+  box-shadow: 2px 2px 2px black;
+  padding:5px;
+  background-color:black;
+  margin:0;
+  text-align:center;
+}
+
+#fin a{
+  color:white;
+  font-size: 40px;
+}
+#fin p{
+  color:white;
+  font-size: 20px;
+}
+
