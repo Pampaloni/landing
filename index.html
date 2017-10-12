@@ -10,26 +10,33 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,600i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,500i,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="monscript.js"></script>
   </head>
 
   <body>
+
     <div id="titre">
       <h1>Let's talk about me !</h1>
       <p>Trial of an original CV</p>
     </div>
 
-    <div class="container">
-      <div class="row">
+    <div class="alert alert-success" role="alert"> <strong>Well done!</strong>You are on the <strong>best</strong> student website !</div>
+
+    <div class="barrehaute">
+      <div class="test">
         <div class="=col-xs-6 col-sm-2 col-md-2">
-          <div id="photodeprofil">
-            <img src="images/profilpicture.png" alt="photodeprofil" width="150" class="img-circle">
+          <div id="lienlinkedin">
+            <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="folcopampaloni">
+              <a class="LI-simple-link" href='https://fr.linkedin.com/in/folcopampaloni?trk=profile-badge'>Folco PAMPALONI</a>
+            </div>
           </div>
         </div>
         <div class="=col-xs-12 col-sm-10 col-md-10">
           <div id="description">
             <h1>What's about this website ?</h1>
-            <p>First, let me introduce myself: My name is Folco, I am Polymer material Engineer looking for xxxxxx. I created this website on my own to find another way to describe myself instead of a classic CV. Enjoy what you find and don't hesitate to contact me.</p>
+            <p>This website is a trial of an original CV. But I suck at code, so ...</p>
           </div>
         </div>
       </div>
@@ -40,45 +47,55 @@
         <div class="=col-xs-12 col-sm-6 col-md-3">
           <div class="card" id="Formation">
           <i class="fa fa-graduation-cap" aria-hidden="true"></i><br>
-          <button type="button" class="btn btn-primary">Training & Skills</button><br>
-          <h3>From the beginning to tomorrow</h3>
+          <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="From the beginning to tomorrow">Training&Skills</button>
           </div>
         </div>
         <div class="=col-xs-12 col-sm-6 col-md-3">
           <div class="card" id="Expérience">
           <i class="fa fa-briefcase" aria-hidden="true"></i><br>
-          <button type="button" class="btn btn-primary">Professionnal experience</button><br>
-          <h3>Where, when, why, etc. All the questions about what I've done</h3>
+          <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="Where, when, why, etc. All the questions about what I've done">Professionnal experience</button>
           </div>
         </div>
         <div class="=col-xs-12 col-sm-6 col-md-3">
           <div class="card" id="Hobbies">
           <i class="fa fa-gamepad" aria-hidden="true"></i><br>
-          <button type="button" class="btn btn-primary">Hobbies</button>
-          <h3>What I do when I don't work or party !</h3><br>
+          <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="What I do when I am not at work">Hobbies</button>
           </div>
         </div>
         <div class="=col-xs-12 col-sm-6 col-md-3">
           <div class="card" id="Contact">
           <i class="fa fa-mobile" aria-hidden="true"></i><br>
-          <button type="button" class="btn btn-primary">Contact</button><br>
-          <h3>How can you reach me ?</h3>
+          <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="How can you reach me?">Contact</button>
           </div>
         </div>
       </div>
     </div>
 
-    
-
     <div id="fin">
-      <p>Où me trouver:</p>
-      <ul class="list-inline">
-      <li><a href="www.linkedin.com/in/folcopampaloni"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-      <li><a href="https://www.facebook.com/folco.pampaloni.35"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-      </ul>
-      <p>©Folco PAMPALONI</p>
-    </div>
+      <div id="cashbar">
+        <p>I have a lot of project, so feel free to help me !</p>
+        <form class="form-inline">
+        <div class="form-group">
+        <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+        <div class="input-group">
+        <div class="input-group-addon">€</div>
+        <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+        <div class="input-group-addon">.00</div>
+        </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Transfer cash</button>
+        </form>
+      </div>
 
+      <div id="findme">
+        <p>Où me trouver:</p>
+        <ul class="list-inline">
+        <li><a href="www.linkedin.com/in/folcopampaloni"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/folco.pampaloni.35"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+        </ul>
+        <p>©Folco PAMPALONI</p>
+      </div>
+    </div>
   </body>
 
 </html>
