@@ -36,9 +36,12 @@ p{
   margin:0;
 }
 
+.barrehaute{
+  background-color:black;
+  padding: 125px;
+  margin:0;
+}
 #description{
-  width:200px
-  height:200px
   border-width:2px;
   padding:5px;
   background-color:black;
@@ -54,6 +57,8 @@ p{
   color:rgb(50,50,50);
   font-size: 100px;
 }
+
+
 
 #fin{
   width:200px
