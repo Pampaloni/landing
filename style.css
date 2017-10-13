@@ -1,26 +1,24 @@
 h1{
   color:#F6E8EA;
-  font-family:Exo;
+  font-family:Exo 2;
   font-size: 40px;
 }
 
 h2{
   color: #17BEBB;
-  font-family:courier;
+  font-family:Exo 2;
   font-size: 30px;
-  text-decoration:underline;
-  text-shadow: 2px 2px #000000
 }
 
 h3{
   color: rgb(50,50,50);
-  font-family:courier;
+  font-family:Exo 2;
   font-size: 20px;
 }
 
 p{
   color: #F6E8EA;
-  font-family:courier;
+  font-family:Josefin;
   font-size: 20px; 
 }
 
@@ -37,28 +35,42 @@ p{
 }
 
 .barrehaute{
-  background-color:black;
-  padding: 125px;
+  background-color:#1B1F3B;
+  padding: -125px;
   margin:0;
-}
-#description{
-  border-width:2px;
-  padding:5px;
-  background-color:black;
-  margin:0;
-  text-align:center;
 }
 
+.cta{
+  background-color:#454ADE;
+  padding:20px;
+  margin: 0px;
+  margin-top: 0px;
+}
+
+#description{
+  border-width:2px;
+  padding:70px;
+  height: 270px;
+  background-color:#1B1F3B;
+  margin-bottom:50px;
+  text-align:center;
+
+}
+
+#information{
+  margin-bottom: 50px;
+}
 .card{
-  padding:100px; 
+  padding:80px; 
+  border:double 5px black;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .card i{
   color:rgb(50,50,50);
   font-size: 100px;
 }
-
-
 
 #fin{
   width:200px
@@ -85,3 +97,4 @@ p{
   margin:0;
   text-align:right;
 }
+
